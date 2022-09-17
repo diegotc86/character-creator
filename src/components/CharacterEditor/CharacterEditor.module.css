@@ -4,7 +4,7 @@
 }
 
 .maxWidthWrapper {
-  max-width: 1024px;
+  /* max-width: 1024px; */
   isolation: isolate;
 }
 
@@ -28,10 +28,11 @@
 
 .characterWrapper {
   position: fixed;
-  /* min-height: 500px; */
-  min-width: 500px;
-  right: 0;
-  top: 128px;
+  min-height: 500px;
+  /* min-width: 500px; */
+  left: 60%;
+  top: 10%;
+  bottom: 5%;
 }
 
 .controlColumn {
